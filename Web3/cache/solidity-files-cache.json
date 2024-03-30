@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/hs-mac/Study/dreamHack/Web3/contracts/safe.sol": {
+      "lastModificationDate": 1711540802732,
+      "contentHash": "7f1bfe8b5b3943258a19abe51a7eebe9",
+      "sourceName": "contracts/safe.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.7.0 < 0.9.0"
+      ],
+      "artifacts": [
+        "Safe"
+      ]
+    }
+  }
+}
