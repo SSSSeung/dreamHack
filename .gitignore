@@ -2,3 +2,6 @@
 *.prp
 *.gbf
 *.bak
+*.grf
+*.ps
+**/node_modules/*
