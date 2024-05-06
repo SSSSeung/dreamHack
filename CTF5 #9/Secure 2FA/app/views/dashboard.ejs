@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .dashboard-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .dashboard-button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            display: block; /* Make the buttons block level elements */
+            width: 90%; /* Set a width */
+            margin: 10px auto; /* Center the buttons */
+        }
+
+        .dashboard-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Dashboard</h2>
+        <button class="dashboard-button" onclick="location.href='/mypage'">MyPage</button>
+        <button class="dashboard-button" onclick="location.href='/admin'">Admin</button>
+        <form action="/signout" method="post">
+            <button class="dashboard-button">Sign Out</button>
+        </form>
+    </div>
+</body>
+</html>
