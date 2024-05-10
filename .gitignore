@@ -5,3 +5,4 @@
 *.grf
 *.ps
 **/node_modules/*
+System/pwndbg/*
