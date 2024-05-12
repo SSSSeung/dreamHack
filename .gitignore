@@ -6,3 +6,4 @@
 *.ps
 **/node_modules/*
 System/pwndbg/*
+*.gdb_history
